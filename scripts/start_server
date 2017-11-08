@@ -1,5 +1,6 @@
 #!/bin/bash
 cd /home/ec2-user/expressProject
+npm i -g forever
 npm i
 npm start
 
