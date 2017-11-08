@@ -1,0 +1,24 @@
+{
+  "name": "CodeDeployGitHubDemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "PORT=80 node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aldy120/CodeDeployGitHubDemo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aldy120/CodeDeployGitHubDemo/issues"
+  },
+  "homepage": "https://github.com/aldy120/CodeDeployGitHubDemo#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
