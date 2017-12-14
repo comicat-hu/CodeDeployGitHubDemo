@@ -3,5 +3,17 @@ os: linux
 files:
   - source: /
     destination: /home/ec2-user/expressProject
-    
+hooks:
+  # BeforeInstall:
+  #   - location: 
+  #     timeout: 
+  #     runas: 
+  AfterInstall:
+    - location: scripts/start_server
+      timeout: 300
+      runas: root
+  ApplicationStop:
+    - location: scripts/stop_server
+      timeout: 300
+      runas: root
 
